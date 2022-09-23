@@ -1,0 +1,91 @@
+package mx.gob.imss.fepac.autorizacion.Enums;
+
+public enum Enummensaje {
+
+	MSG01("No existen datos para realizar la asignación"),
+	MSG02("No se realizó la asignación de folios. Favor de verificar."), MSG03("Asignación de blocks exitosa."),
+	MSG04("Favor de asignar blocks a todas las Delegaciones."),
+	MSG05("Los folios están agotados, la asignación no se llevará a cabo."),
+	MSG06("No existen folios pendientes de registrar. "),
+	MSG07("Favor de completar la información de registro en los campos obligatorios."),
+	MSG08("La fecha debe ser menor o igual a la actual."), MSG09("Fecha de recepción exitosa."),
+	MSG10("No se realizó el registro de fecha correctamente. Favor de verificar."),
+	MSG11("No existen folios pendientes para asignar a unidades médicas."),
+	MSG12("La fecha de asignación debe ser menor o igual a la actual."),
+	MSG13("No se realizó la asignación de blocks correctamente. Favor de verificar."),
+	MSG14("Los datos se guardaron exitosamente."),
+	MSG15("La matrícula debe ser numérica con longitud de 8 a 10 dígitos, mayor que cero."),
+	MSG16("El password debe contener de 8 a 10 caracteres, solo pueden ser números, letras y los caracteres"),
+	MSG17("La matricula ya existe, por favor verifíquela"), MSG18("Se realizara la baja ¿Desea continuar?"),
+	MSG19("Las contraseñas no coinciden, por favor verifíquelas."),
+	MSG20("La clave de usuario no existe por favor teclee nuevamente."),
+	MSG21("Los cambios se llevaran acabo ¿desea continuar?"), MSG22("Se realizara la alta ¿Desea continuar?"),
+	MSG23("¿Desea realizar mas bajas?"), MSG24("¿Desea realizar más modificaciones?"),
+	MSG25("Los folios serán asignados ¿desea continuar?"), MSG26("¿Desea realizar más asignaciones?"),
+	MSG27("Nip o contraseña incorrectos, verifique sus datos."),
+	MSG28("Error en la conexi\u00F3n, intente de nuevo mas tarde. "),
+	MSG29("Favor de llenar todos los campos obligatorios correctamente."),
+	MSG30("Error de sistema, contacte el administrador."), MSG31("No existen block y folios suficientes."),
+	MSG32("Por favor asigne folios en múltiplos de 50."),
+	MSG33("El programa o el intervalo de series son incorrectos favor de verificarlos."),
+	MSG34("La operación ha sido cancelada, regístrela nuevamente."),
+	MSG35("La operación fue realizada con éxito,"),
+	MSG36("Se realizo la transferencia, ¿Desea continuar?"),
+	MSG37("La fecha tiene que ser mayor o igual a la fecha actual, por favor seleccione nuevamente."),
+	MSG38("El folio será recuperado ¿Desea continuar?"), MSG39("El folio se recupero ¿Desea recuperar otro folio?"),
+	MSG40("Los folios del 2006 no tienen vigencia."), MSG41("El folio no existe favor de verificar."),
+	MSG42("Favor de colocar un número entero mayor a cero."),
+	MSG43("No existen datos suficientes para realizar la operación."),
+	MSG44("La cantidad es muy elevada ¿Desea continuar?"),
+	MSG45("La longitud o los caracteres no son permitidos por favor teclee nuevamente."),
+	MSG46("No se puede llevar a cabo la corrección porque algunos folios ya han sido recibidos en SEDECOR."),
+	MSG47("Se realizara la operación ¿Desea continuar?"), MSG48("La matricula de medico no existe favor de verificar."),
+	MSG49("Acceso denegado a consulta, verifique su folio."),
+	MSG50("El programa actual no ha sido registrado, favor de verificar."),
+	MSG51("El usuario ha sido dado de baja, no se puede realizar modificaciones."),
+	MSG52("¿Esta de acuerdo en asignar 10,000 blocks o más a la Delegación o UMAE?"),
+	MSG53("¿Desea calcular los folios nuevamente?"), MSG54("No se puede asignar más de un block a un médico."),
+	MSG55("El médico esta dado de alta en otra unidad."), MSG56("El folio final debe ser mayor al folio inicial."),
+	MSG57("La construcción del folio es incorrecta."), MSG58("No hay programa para realizar dicha operación"),
+	MSG59("No es posible hacer la corrección porque ya fue realizada o algunos folios ya fue asigando"),
+	MSG60("El numero del folio es Incorrecto, favor de revisar."),
+	MSG61("No puede asignarle más de un block de folios."),
+	MSG62("No se encontraron Folios para realizar la recepción."), MSG63("La matricula se encuentra dada de baja."),
+	MSG64("El campo debe ser numérico con longitud de 8 a 10 dígitos"),
+	MSG65("La matrícula no existe o se encuentra dada de baja favor de verificarla."),
+	MSG66("El usuario será activado, ¿desea continuar?"), MSG67("La matrícula no existe, por favor verifíquela."),
+	MSG68("El campo observaciones no debe contener solo espacios."),
+	MSG69("La fecha debe ser mayor o igual a la fecha de asignación de folios de Nivel Central."),
+	MSG70("No existen datos para realizar la recepción."),
+	MSG71("La fecha debe ser mayor o igual a la fecha de asignación de folios de SEDECOR."),
+	MSG72("Por lo menos una delegación debe contener folios."),
+	MSG73("La fecha debe ser mayor o igual a la fecha de recepción de folios en SEDECOR."),
+	MSG74("La fecha debe ser mayor o igual a la fecha de asignación de folios de Nivel Central UMAE."),
+	MSG75("La matricula no pertenece a esta Delegación o UMAE."),
+	MSG76("La cantidad de blocks debe ser un valor entero entre 0 y 99999."),
+	MSG77("La unidad médica a la que pertenece ha sido dada de baja. Por favor contacte al administrador."),
+	MSG78("Por lo menos una UMAE debe contener folios."), MSG79("La matrícula no existe, por favor verifíquela."),
+	MSG80("No se puede realizar la baja del médico ya que posee folios asignados."),
+	MSG81("El campo debe ser numérico con longitud de 1 a 3 dígitos."),
+	MSG82("La matrícula no tiene asignado ningún block."),
+	MSG83("Acceso denegado a consulta, verifique su folio o matrícula."),
+	MSG84("No existen datos que coincidan con la fecha seleccionada."),
+	MSG85("La consulta no puede sobrepasar los 3 años, seleccione nuevamente"),
+	MSG86("La fecha final no puede ser menor a la fecha inicial, seleccione nuevamente"),
+	MSG87("La fecha final no puede ser mayor a la fecha actual, seleccione nuevamente"),
+	MSG88("El folio capturado debe estar Cancelado para reactivarse"),
+	MSG89("El folio capturado ya ha sido expedido, no se puede reactivar"),
+	MSG90("Los folios no corresponden a la unidad médica seleccionada"),
+	MSG91("El médico ya cuenta con un block asignado.");
+
+	private String descripcion;
+
+	private Enummensaje(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+}
